@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var redCircle: UIView!
+    @IBOutlet weak var yellowCircle: UIView!
+    @IBOutlet weak var greenCircle: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        redCircle.layer.cornerRadius = 55
+        yellowCircle.layer.cornerRadius = 55
+        greenCircle.layer.cornerRadius = 55
     }
 
 
